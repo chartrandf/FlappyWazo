@@ -1,11 +1,9 @@
-# FlappyBird
+# FlappyWazo
 
-flappy bird game with javascript and P5.js library
+flappy bird game with javascript and P5.js library, forked from: https://github.com/barzin144/FlappyBird.
 
 - P5.js 1.4.0 _for make game loop_
 - Webpack 5 _for module bundling_
-
-[Live Demo](https://barzin144.github.io/FlappyBird/)
 
 ## Available Scripts
 
@@ -18,10 +16,8 @@ Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
+Builds the app for production to the `dist` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
 ![flappyBird](./flappyBird.png)

@@ -22,4 +22,11 @@ module.exports = merge(common, {
       },
     ],
   },
+  devServer: {
+    headers: {
+      "Access-Control-Allow-Origin": "*", // replace "*" with your whitelisted domain
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Access-Control-Allow-Headers": "*",
+    },
+  },
 });

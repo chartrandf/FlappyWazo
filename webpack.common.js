@@ -1,3 +1,5 @@
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 module.exports = {
   entry: {
     main: "./src/index.js",
@@ -26,4 +28,14 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'src/manifest-app.json', to: 'manifest-app.json' },
+        { from: 'src/manifest-portal.json', to: 'manifest-portal.json' },
+        { from: 'src/assets/wazo-bird-color.svg', to: 'imgs/wazo-bird-color.svg' },
+        { from: 'src/assets/wazo-bird-white.svg', to: 'imgs/wazo-bird-white.svg' },
+      ],
+    }),
+  ],
 };

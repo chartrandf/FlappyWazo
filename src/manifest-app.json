@@ -1,0 +1,36 @@
+{
+  "manifestVersion": "0.1",
+  "version": "1.0.0",
+  "id": "com-francischartrand-wazo-app",
+  "packageName": "com.francischartrand.wazo.app",
+  "productType": "app",
+
+  "name": {
+    "short": "Flappy Wazo",
+    "full": "Flappy Wazo"
+  },
+
+  "description": {
+    "short": "Flappy bird version adapted with Wazo logo",
+    "full": "Flappy bird version adapted with Wazo logo"
+  },
+
+  "icons": {
+    "color": "./imgs/wazo-bird-color.svg"
+  },
+
+  "developer": {
+    "name": "Francis Chartrand",
+    "websiteUrl": "https://francischartrand.com"
+  },
+
+  "staticTabs": [
+    {
+      "entityId": "game",
+      "context": ["sidebarTab"],
+      "name": "Flappy Wazo",
+      "contentUrl": "/",
+      "icon": "./imgs/wazo-bird-white.svg"
+    }
+  ]
+}
