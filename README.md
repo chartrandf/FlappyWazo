@@ -1,9 +1,6 @@
-# FlappyWazo
+# FlappyWazo (Plugin)
 
-flappy bird game with javascript and P5.js library, forked from: https://github.com/barzin144/FlappyBird.
-
-- P5.js 1.4.0 _for make game loop_
-- Webpack 5 _for module bundling_
+This is a simple demonstration of a [forked Flappy Bird game](https://github.com/barzin144/FlappyBird), now converted into a [Wazo Plugin for Portal or Apps](https://wazo-communication.github.io/euc-plugins-js-sdk/docs/plugins/introduction). The purpose of this project is to illustrate how plugins works in our products and let's people knowns that the only limit is your imagination with our plugin system.
 
 ## Available Scripts
 
@@ -20,4 +17,4 @@ Builds the app for production to the `dist` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 
-![flappyBird](./flappyBird.png)
+![flappyBird](./flappyBird.jpg)
